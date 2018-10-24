@@ -4,16 +4,22 @@ services:
         build: ./app
         depends_on:
           - db
+        restart: always
+        container_name: kestrel  
 
     proxy:
         build: ./nginx
         ports:
           - "80:80"
         depends_on:
-          - app       
+          - app
+        restart: always
+        container_name: nginx         
 
     db:
         image: "microsoft/mssql-server-linux"
         environment:
             SA_PASSWORD: "Your_password123"
             ACCEPT_EULA: "Y"
+        restart: always
+        container_name: mssql    
