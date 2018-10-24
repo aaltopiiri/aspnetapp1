@@ -1,0 +1,13 @@
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/bin/Debug/netcoreapp1.1/app.db
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/bin/Debug/netcoreapp1.1/app.deps.json
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/bin/Debug/netcoreapp1.1/app.runtimeconfig.json
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/bin/Debug/netcoreapp1.1/app.runtimeconfig.dev.json
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/bin/Debug/netcoreapp1.1/app.dll
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/bin/Debug/netcoreapp1.1/app.pdb
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/obj/Debug/netcoreapp1.1/app.csprojAssemblyReference.cache
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/obj/Debug/netcoreapp1.1/app.csproj.CoreCompileInputs.cache
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/obj/Debug/netcoreapp1.1/UserSecretsAssemblyInfo.cs
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/obj/Debug/netcoreapp1.1/app.AssemblyInfoInputs.cache
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/obj/Debug/netcoreapp1.1/app.AssemblyInfo.cs
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/obj/Debug/netcoreapp1.1/app.dll
+/Users/etc/Projects/AspCoreMvcMsqlLinuxDocker/app/obj/Debug/netcoreapp1.1/app.pdb
