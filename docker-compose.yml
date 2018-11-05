@@ -4,7 +4,7 @@ services:
         build: ./app
         depends_on:
           - db
-        restart: always
+        #restart: always
         container_name: kestrel  
 
     proxy:
@@ -13,7 +13,7 @@ services:
           - "80:80"
         depends_on:
           - app
-        restart: always
+        #restart: always
         container_name: nginx         
 
     db:
@@ -21,5 +21,5 @@ services:
         environment:
             SA_PASSWORD: "Your_password123"
             ACCEPT_EULA: "Y"
-        restart: always
+        #restart: always
         container_name: mssql    
