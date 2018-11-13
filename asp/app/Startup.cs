@@ -41,7 +41,7 @@ namespace app
         {
             // Database connection string.
             // Make sure to update the Password value below from "Your_password123" to your actual password.
-            var connection = @"Server=db;Database=master;User=sa;Password=Your_password123;";
+            var connection = @"Server=db;Database=asp-identity;User=sa;Password=Your_password123;";
 
             // This line uses 'UseSqlServer' in the 'options' parameter
             // with the connection string defined above.
@@ -52,23 +52,10 @@ namespace app
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-    services.AddMvc();
-
-    // Add application services.
-    services.AddTransient<IEmailSender, AuthMessageSender>();
-    services.AddTransient<ISmsSender, AuthMessageSender>();
-            
-            // Add framework services.
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
-
-            services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddDefaultTokenProviders();
-
             services.AddMvc();
 
             // Add application services.
+
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
         }

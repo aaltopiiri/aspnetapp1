@@ -1,5 +1,5 @@
 FROM microsoft/aspnetcore-build:lts
-COPY . /app
+COPY ./app /app
 WORKDIR /app
 RUN ["dotnet", "restore"]
 RUN ["dotnet", "build"]
